@@ -1,5 +1,4 @@
 const {bot} = require('../index.js');
-const config = require("../config.json");
 
 bot.login(process.env.BOT_TOKEN)
 
