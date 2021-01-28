@@ -1,5 +1,4 @@
 const {bot} = require('../index.js');
-const config = require("../config.json")
 
 bot.on("message", async message => {
   if (message.author.bot) return;
