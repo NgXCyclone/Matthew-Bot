@@ -1,7 +1,6 @@
 const discord = require("discord.js");
 const bot = new discord.Client({disableEveryone: true});
 const lib = require("./lib/functions");
-const config = require("./config.json");
 
 //Command Handler
 bot.commands = new discord.Collection();
